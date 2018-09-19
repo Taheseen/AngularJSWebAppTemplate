@@ -1,0 +1,34 @@
+{
+  "name": "angularjs-mvc-web-app-template",
+  "version": "1.0.0",
+  "description": "AngularJS MVC Web App Template\r ==============================",
+  "main": "App.js",
+  "scripts": {
+    "build": "webpack App.js dist/bundles.js",
+    "start": "concurrently 'lite-server' 'webpack --watch'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achudars/AngularJS-MVC-Web-App-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "concurrently": "^2.2.0",
+    "html-loader": "^0.4.3",
+    "lite-server": "^2.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/achudars/AngularJS-MVC-Web-App-Template/issues"
+  },
+  "homepage": "https://github.com/achudars/AngularJS-MVC-Web-App-Template#readme"
+}
