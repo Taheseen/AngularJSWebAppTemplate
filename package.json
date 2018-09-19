@@ -2,9 +2,9 @@
   "name": "angularjs-mvc-web-app-template",
   "version": "1.0.0",
   "description": "AngularJS MVC Web App Template\r ==============================",
-  "main": "App.js",
+  "main": "app/App.js",
   "scripts": {
-    "build": "webpack App.js dist/bundles.js",
+    "build": "webpack src/app/App.js dist/bundles.js",
     "start": "concurrently 'lite-server' 'webpack --watch'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
